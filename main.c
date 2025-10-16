@@ -13,7 +13,7 @@ void sortints(int* ints, size_t amt) {
             }
         }
         
-        if((stopper != (amt - 1))) {
+        if(stopper != (amt - 1)) {
             // Swaps ints
             tempentry = ints[smallindex];
             ints[smallindex] = ints[stopper];
